@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>All Html Tags File</title>
+    <link rel="stylesheet" href="style.css">
+
+
+    <style>
+        /* this is the way of creating css inside the html */
+
+        .para {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 40px;
+            background-color: rgb(78, 220, 224);
+            text-decoration: underline;
+        }
+
+        #div{
+            background-color: antiquewhite;
+            border: 5px solid goldenrod;
+            box-shadow: 20px 20px 30px rgb(77, 76, 76);
+            font-size: 25px;
+            width: 500px;
+            height: 200px;
+            padding: 20px;
+        }
+
+        .testbox {
+            width: 800px;
+            margin-top: 50px;
+            height: 300px;
+            border: 6px dotted black;
+        }
+
+        .mdiv {
+
+            width: 200px;
+            height: 200px;
+            font-size: 25px;
+            background-color: rgb(110, 239, 198);
+        }
+
+        .div1 {
+            margin-top: 80px;
+        }
+
+        .div2 {
+
+            margin-left: 80px;
+        }
+
+        .div4 {
+            padding-top: 30px;
+
+
+        }
+
+        .div5 {
+            padding-left: 30px;
+        }
+
+        .div6 {
+            padding: 30px;
+        }
+
+        .div7 {
+            background-image: url(IMG_20230413_105819.jpg);
+            width: 100%;
+            height: 100%;
+
+        }
+
+        .div8 {
+            background-image: url(IMG_20230413_105819.jpg);
+            width: 100%;
+            height: 100%;
+            background-repeat: no-repeat;
+        }
+
+
+        .div9 {
+            width: 100%;
+            height: 100%;
+
+            text-align: center;
+        }
+
+        .div10 {
+            width: 100%;
+            height: 100%;
+
+            text-align: justify;
+        }
+
+        .div11  {float: left;
+            margin: 10px;
+            border-top: 8px solid red;
+          }
+        .div12{
+            float: right;
+            margin: 10px;
+            border-top: 8px solid red;
+            border-left: 8px solid red;
+          }
+        .div13  {
+            float: right;
+            margin: 10px 40px;
+            border: 8px solid red;
+          }
+
+
+    </style>
+</head>
+
+<body>
+<h2>Background color is changed by using exxternal CSS</h2>
+    <hr>
+    <br>
+
+    <h2>styling example</h2>
+    <p class="para">
+        font, size, styling, underline are done with css in this paragraph tag
+    </p>
+
+
+    <p style="background-color: rosybrown; font-size: 30px;">
+        This is the example of inline css, plz check the code</p>
+
+    <div id="div">
+        background-color, border, box shadow and padding are also given are changed by css
+
+        <h2>This box is styled with ID not class</h2>
+    </div>
+    <br>
+    <br>
+    <br>
+
+    <hr>
+    <h2>Margin</h2>
+
+
+    <div class="testbox">
+        <div class="div1 mdiv">
+            this is example of margin form top side
+        </div>
+    </div>
+
+
+
+
+    <div class="testbox">
+        <div class="div2 mdiv">
+            this is example of margin form left side
+        </div>
+    </div>
+
+    <hr>
+    <h2>Padding example</h2>
+
+    <div class="testbox">
+        <div class="div3 mdiv">
+            this is example of box With NO padding
+        </div>
+    </div>
+
+    <div class="testbox">
+        <div class="div4 mdiv">
+            this is example of box with 30px Padding from top side
+        </div>
+    </div>
+    <div class="testbox">
+        <div class="div5 mdiv">
+            this is example of box with 30px Padding from left side
+        </div>
+    </div>
+    <div class="testbox">
+        <div class="div6 mdiv">
+            this is example of box with 30px Padding from all side
+        </div>
+    </div>
+    <div class="testbox">
+        <div class="div7 mdiv">
+
+        </div>
+    </div>
+    <div class="testbox">
+        <div class="div8 mdiv">
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            this is example of img with no- repeate
+        </div>
+    </div>
+
+    <hr>
+    <h2>Text styling</h2>
+
+    <div class="testbox">
+        <div class="div9 mdiv">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore hic id, commodi ducimus quaerat! Iure
+            cupiditate, quas alias sapiente natus corporis odit provident beatae hic, sint minima aperiam distinctio
+            magnam quam quis voluptatum necessitatibus qui?
+
+            <h2>Example of text align Center</h2>
+        </div>
+    </div>
+    <div class="testbox">
+        <div class="div10 mdiv">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore hic id, commodi ducimus quaerat! Iure
+            cupiditate, quas alias sapiente natus corporis odit provident beatae hic, sint minima aperiam distinctio
+            magnam quam quis voluptatum necessitatibus qui?
+
+            <h2>Example of text align justify</h2>
+        </div>
+    </div>
+    <div class="testbox">
+        <div class="div11 mdiv">    Border at only TOP   </div>
+        <div class="div12 mdiv">      Border at only TOP and LEFT    </div>
+        <div class="div13 mdiv">    Border at all side      </div>
+    </div>
+
+
+
+</body>
+
+</html>

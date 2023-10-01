@@ -1,0 +1,8 @@
+/* This is the way of creating external CSS */
+
+body{
+
+
+    background-image: linear-gradient(45deg, rgba(255, 0, 0, 0.116), rgba(255, 255, 0, 0.184), rgba(0, 0, 255, 0.144),rgba(255, 192, 203, 0.326), rgba(0, 128, 0, 0.171));
+    
+}
